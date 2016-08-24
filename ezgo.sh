@@ -1,6 +1,6 @@
 #!/bin/bash
 # easy install golang with gvm on ubuntu
-# curl -sSL https://raw.github.com
+# curl -sSL https://raw.githubusercontent.com/neverlock/ezgo/master/ezgo.sh | bash
 apt-get update && apt-get install -y wget curl git bison build-essential
 wget "https://storage.googleapis.com/golang/go1.4.linux-amd64.tar.gz"
 tar xvfz go1.4.linux-amd64.tar.gz
